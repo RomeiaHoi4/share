@@ -9,9 +9,9 @@ print("country name")
 country_name = str(input())
 flag = Image.open("_flag.tga") 
 
-medium_flag = flag.resize(41,26)
+medium_flag = flag.resize((41, 26), Image.LANCZOS)
 
-small_flag = flag.resize(10,7)
+small_flag = flag.resize((10, 7), Image.LANCZOS)
 
 flag.save("{}.tga".format(country_name))
 medium_flag.save("medium/{}.tga".format(country_name))
