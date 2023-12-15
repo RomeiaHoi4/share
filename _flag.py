@@ -16,3 +16,5 @@ small_flag = flag.resize((10, 7), Image.LANCZOS)
 flag.save("{}.tga".format(country_name))
 medium_flag.save("medium/{}.tga".format(country_name))
 small_flag.save("small/{}.tga".format(country_name))
+
+#WN8jvcKuTwRSg4R
